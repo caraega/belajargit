@@ -1,0 +1,48 @@
+<!-- Nah sekarang kita akan membahas Github Pages 
+Github Pages merupakan suatu fitur membantu kita
+menghosting atau menjalankan website kita atau publikasi website kita ke orang lain -->
+
+<!-- Github Pages -->
+Langkah kita buka :
+Kita Buat Github Repository Hosting Secara Langsung
+https://pages.github.com/
+Kita Buat Repository :
+Kemudian Kita Buka File Yang mau di Hosting
+Klik Open Git Bash Here
+
+Langkah
+Buka Git :
+$ git init
+$ git add .
+$ git commit -m "upload coder project"
+$ git remote add origin https://github.com/caraega/coder.git
+$ git push --set-upstream origin master
+
+
+** Penjelasan Git
+$ git init = untuk digunakan bahwasannya ini repository
+Selanjut kita bisa lakukan
+$ git add .
+$ git commit -m "upload coder project" = dimana kita uda masukan ke dalam kotak, kotak ini kita tutup dengan memberika
+messange
+Oke Sekarang kita mesti push gitu,
+Tapi sebelum kita push kita masih kasih tau dulu destinasi
+dari project kita atau repository kita kemana
+untuk dismpan gitu jadi kita mesti copy digithub project
+Kita copy dulu https://github.com/caraega/coder.git
+lalu buka git
+$ git remote add origin https://github.com/caraega/coder.git
+sekarang uda tertambah destinasi
+nah sekarang kita
+$ git push
+tapi jangan lupa kerena untuk lokal untuk tambahin disana juga kita masih tambahin
+$ git push --set-upstream origin master
+Nah Sekarang proses sudah tersimpan di github
+
+Nah sekarang kita akan hosting:
+klik setting di github
+lalu kita klik Pages
+kita pilih branch development yang mana
+kita pilih master
+kemudian kita save
+nanti proses develop akan berlangsung
